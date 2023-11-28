@@ -25,11 +25,11 @@ A full subtractor is a combinational circuit that performs subtraction involving
 Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 
 # Procedure
+Connect the supply (+5V) to the circuit
 
+Switch ON the main switch
 
-
-Write the detailed procedure here 
-
+If the output is 1, then the led glows.
 
 # Program:
 ## Half Subtractor
@@ -41,26 +41,36 @@ assign b=~x&y;
 
 endmodule
 ## Full Subtractor
+module fullsubtractor(input x,y,z, output d,b);
 
+assign d=x^y^z;
 
+assign b=~x&(y^z)|y&z;
+
+endmodule
 
 
 
 #  RTL realization
 ## Half Subtractor
-![Exp 4 half adder RTL realization](https://github.com/amal-2006/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/148410730/d1edfe37-bcbe-48a0-934a-f3c69085fbd4)
+![Exp 4 half subtractor RTL realization](https://github.com/amal-2006/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/148410730/5c47bbf1-2a5c-491e-80f5-370396674863)
 
 ## Full Subtractor
+![Exp 4 full subtractor RTL realization](https://github.com/amal-2006/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/148410730/f7af6f01-56c0-4bd5-98d9-37b2a2f571ce)
 
 
 # Truthtable
 ## Half Subtractor
+![Exp 4 half subtractor truth table](https://github.com/amal-2006/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/148410730/af8956e9-6319-46ad-b682-2f36ed847872)
 
 ## Full Subtractor
+![Exp 4 full subtractor truth table](https://github.com/amal-2006/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/148410730/dab6e1b0-1626-4c39-aa65-61f53440cf17)
 
 # Timing diagram 
 ## Half Subtractor
 ![Exp 4 half subtractor timing diagram](https://github.com/amal-2006/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/148410730/ecf62022-e6c4-4a71-914e-30a8f2d22508)
+## Full Subtractor
+![Exp 4 full subtractor timing diagram](https://github.com/amal-2006/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/148410730/852ade89-86ed-40bc-962c-8f713c63baf7)
 
 
 # Result:
