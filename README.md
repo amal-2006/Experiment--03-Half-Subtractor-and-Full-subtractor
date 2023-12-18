@@ -68,7 +68,8 @@ endmodule
 
 # Timing diagram 
 ## Half Subtractor
-![Exp 4 half subtractor timing diagram](https://github.com/amal-2006/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/148410730/ecf62022-e6c4-4a71-914e-30a8f2d22508)
+![Exp 4 half subtractor timing diagram](https://github.com/amal-2006/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/148410730/a15f03e8-1073-4113-b2f8-bb49436f22b5)
+
 ## Full Subtractor
 ![Exp 4 full subtractor timing diagram](https://github.com/amal-2006/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/148410730/852ade89-86ed-40bc-962c-8f713c63baf7)
 
