@@ -1,5 +1,5 @@
-# Name: Amaljosh Maadhav J
-# Roll No: 23014023
+### Name: Amaljosh Maadhav J
+### Roll No: 23014023
 # Experiment 03: Implementation of half subtractor and full subtractor circuit
 # AIM
 To design a half subtractor and full subtractor circuit and verify its truth table in Quartus using Verilog programming.
