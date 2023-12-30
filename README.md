@@ -41,14 +41,22 @@ assign b=~x&y;
 
 endmodule
 ## Full Subtractor
-module fullsubtractor(input x,y,z, output d,b);
 
-assign d=x^y^z;
+module FullSubtractor(x,y,z,d,b);
 
-assign b=~x&(y^z)|y&z;
+input x,y,z;
+
+output d,b;
+
+wire p;
+
+assign d = x^y^z;
+
+not(p,x);
+
+assign Borrow = ((p&y)|(p&z)|(y&z));
 
 endmodule
-
 
 
 #  RTL realization
